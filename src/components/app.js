@@ -20,7 +20,7 @@ const App = () => (
             <img src={logo} className="logo rotate"/>
             <div className="title-container">
                 <img src={shamrockL} className="clover left rotate3d-right" />
-                <Greeting name={name} favColor={favColor}/>              
+                <Greeting {...user} food="pizza" doStuff = {() => {return console.log(user);}}/>           
                 <img src={shamrockR} className="clover right rotate3d-left" />                
             </div>
             <img src={gold} className="gold right"/>
