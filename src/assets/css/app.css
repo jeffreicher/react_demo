@@ -7,6 +7,11 @@ body {
     margin: 0;
 }
 
+.sign-in-form {
+    text-align: center;
+    margin-top: 2%;
+}
+
 .app {
     background-color: #73c454;
     color: #fff;
