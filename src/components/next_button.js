@@ -3,7 +3,7 @@ import React from 'react';
 const Next = () => {
     return (
         <div>
-            <button>Next</button>
+            <button className="btn btn-outline-success next">Next</button>
         </div>
     )
 }

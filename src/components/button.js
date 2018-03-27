@@ -3,7 +3,7 @@ import React from 'react';
 const Button = (props) => {
     return (
         <div>
-            <button>
+            <button className="btn btn-outline-primary">
                 <b>{props.title}</b>
                 <p>{props.descrip}</p>
             </button>
