@@ -1,0 +1,19 @@
+.middle-container {
+    text-align: center;
+    height: 20%;
+}
+
+h3 {
+    color:blueviolet;
+}
+
+img {
+    height: 80%;
+}
+
+.lyin-bg {
+    background-image: url(./imgs/lyin.jpg);
+    background-size: contain;
+    border: 3px black solid;
+    height: 50%;
+}
