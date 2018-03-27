@@ -1,52 +1,25 @@
-@font-face {
-    font-family: blocky;
-    src: url(../fonts/blocky.ttf);
+.next-container {
+    float: right; 
+    margin: 4% 8% 0 0;   
 }
 
-body {
-    margin: 0;
+.next-container button {
+    font-size: 6vw;
 }
 
-.app {
-    background-color: #000;
-    color: #fff;
-    font-family: blocky;
-    font-size: 30px;
-    padding: 50px;
+.container {
     text-align: center;
 }
 
-.app .logo {
-    height: 200px;
+.container Button {
+    font-size: 4vw;
+    margin: 2%;
 }
 
-.app h1 {
-    text-shadow: 0 0 28px #61DAFB;
-    letter-spacing: 5px;
+.container div:first-of-type {
+    margin-top: 5%;
 }
 
-.rotate {
-    animation: spin 0.5s linear infinite;
-}
-
-.rotateReverse {
-    animation: spinReverse 0.5s linear infinite;
-}
-
-@keyframes spinReverse {
-    from {
-        transform: rotate(360deg);
-    }
-    to {
-        transform: rotate(0deg);
-    }
-}
-
-@keyframes spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
+.page-header {
+    text-align: center;
 }
