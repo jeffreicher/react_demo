@@ -17,7 +17,7 @@ const App = () => {
             <Button title={'Carnivore'} descrip={'Meal Is Life'} />   
             <Button title={'Pescatarian'} descrip={'Fish N Greens'} />
         </div>   
-        <Next className="float-right"/>      
+        <Next />      
     </div>
     );
 }
