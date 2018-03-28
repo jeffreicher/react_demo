@@ -14,7 +14,7 @@ const App = () => {
             <Button title={'Paleo'} descrip={'Live Like Your Ancestors'} />  
             <Button title={'Low Carb'} descrip={'Coachella Bod Meal Plan'} />     
             <Button title={'Vegetarian'} descrip={'Straight Veggies'} />   
-            <Button title={'Carnivore'} descrip={'Meal Is Life'} />   
+            <Button title={'Carnivore'} descrip={'Meat   Is Life'} />   
             <Button title={'Pescatarian'} descrip={'Fish N Greens'} />
         </div>   
         <Next />      

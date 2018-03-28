@@ -15,6 +15,7 @@
     "url": "https://github.com/jeffreicher/react_demo.git"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "babel-polyfill": "^6.26.0",
     "bootstrap": "^4.0.0",
     "react": "^16.2.0",
