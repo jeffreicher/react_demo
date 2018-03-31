@@ -1,25 +1,13 @@
 import React from 'react';
-import '../assets/css/app.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import logo from '../assets/images/logo.svg';
-import Header from './header';
-import Button from './button';
-import Next from './next_button';
+import { Route } from 'react-router-dom';
+import DietSelection from './diet-selection';
+import 'materialize-css/dist/css/materialize.min.css';
+import '../assets/css/diet-selection.css';
 
-const App = () => {
-    return (
-    <div>
-        <Header />
-        <div className="container">
-            <Button title={'Paleo'} descrip={'Live Like Your Ancestors'} />  
-            <Button title={'Low Carb'} descrip={'Coachella Bod Meal Plan'} />     
-            <Button title={'Vegetarian'} descrip={'Straight Veggies'} />   
-            <Button title={'Carnivore'} descrip={'Meat   Is Life'} />   
-            <Button title={'Pescatarian'} descrip={'Fish N Greens'} />
-        </div>   
-        <Next />      
+export default () => (
+    <div className="container">
+        <Route exact path="/" />
+        <Route path="/diet-selection" component={DietSelection} />
+        <Route path="/allergy-selection" />
     </div>
-    );
-}
-
-export default App;
+);

@@ -1,14 +1,11 @@
+//description does not show up on button
 import React from 'react';
 
-const Button = (props) => {
-    return (
-        <div>
-            <button className="btn btn-outline-primary">
-                <b>{props.title}</b>
-                <p>{props.descrip}</p>
-            </button>
-        </div>
-    )
-}
-
-export default Button;
+export default props => (
+    <div>
+        <a className={`waves-effect waves-light btn gray ${props.style}`}>
+            {props.title} <br/>
+            {props.descrip}
+        </a>
+    </div>
+);

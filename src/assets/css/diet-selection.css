@@ -1,0 +1,10 @@
+.button {
+    height: 50px;
+    line-height: 25px;
+    margin: 7% auto;
+    background-color: grey;
+}
+
+.right {
+    margin-top: 6%;
+}
