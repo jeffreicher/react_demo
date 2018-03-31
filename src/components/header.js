@@ -1,6 +1,6 @@
 import React from 'react';
 
 export default (props) => (
-    <div className="center"><h3>{props.title}</h3></div>    
+    <div className="center card"><h3 className="card-content">{props.title}</h3></div>    
 );
 
