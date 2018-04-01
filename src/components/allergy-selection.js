@@ -18,8 +18,8 @@ class AllergySelection extends Component {
                     <Button title={'Soy'} style={'grey'} />
                     <Button title={'Eggs'} style={'grey'} />
                 </div>  
-                <div className="right">
-                <Next />                  
+                <div className="right bottom">
+                <Next style={'bottom'}/>                  
                 </div>  
             </div>
         );

@@ -7,9 +7,9 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 5vh;
+    margin-top: 10vh;
 }
 
-.btn {
-    background-color: grey;
+.bottom {
+    margin-top: 15vh;
 }
