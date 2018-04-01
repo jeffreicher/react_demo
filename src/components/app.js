@@ -5,6 +5,7 @@ import AllergySelection from './allergy-selection';
 import 'materialize-css/dist/css/materialize.min.css';
 import '../assets/css/diet-selection.css';
 
+
 export default () => (
     <div className="container">
         <Route exact path="/" />

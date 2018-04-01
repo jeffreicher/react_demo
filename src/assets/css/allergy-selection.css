@@ -1,3 +1,15 @@
-.row > Button {
-    margin: 5%;
+.row .btn {
+    margin: 1vh;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.btn {
+    background-color: grey;
 }
