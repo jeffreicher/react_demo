@@ -15,10 +15,10 @@ class DietSelection extends Component {
     }
     render() {
         return (
-        <div>
+        <div className="container">
             <Header title={'What\'s Your Type?'}/>
-            <div className="container center-align">
-                <Button title={'Paleo'} descrip={'Live Like Your Ancestors'} style={'button a:active'} />  
+            <div className="collection center-align">
+                <Button title={'Paleo'} descrip={'Live Like Your Ancestors'} style={'button'} />  
                 <Button title={'Low Carb'} descrip={'Coachella Bod Meal Plan'} style={'button'} />     
                 <Button title={'Vegetarian'} descrip={'Straight Veggies'} style={'button'} />   
                 <Button title={'Carnivore'} descrip={'Meat Is Life'} style={'button'} />   
