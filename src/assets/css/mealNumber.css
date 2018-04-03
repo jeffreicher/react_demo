@@ -1,0 +1,13 @@
+.button-column {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.button-column > div {
+    margin: 5%;
+}
+
+.button-column > div:first-of-type {
+    margin-top: 10vh;
+}
