@@ -12,11 +12,15 @@ class AllergySelection extends Component {
                 <div className="row">
                     <Button title={'Gluten'} style={'grey'} />  
                     <Button title={'Dairy'} style={'grey'} />     
-                    <Button title={'Nuts'} style={'grey'} />   
+                    <Button title={'Tree Nut'} style={'grey'} />   
                     <Button title={'Peanuts'} style={'grey'} />   
                     <Button title={'Shellfish'} style={'grey'} />
                     <Button title={'Soy'} style={'grey'} />
-                    <Button title={'Eggs'} style={'grey'} />
+                    <Button title={'Egg'} style={'grey'} />
+                    <Button title={'Wheat'} style={'grey'} />
+                    <Button title={'Sesame'} style={'grey'} />
+                    <Button title={'Seafood'} style={'grey'} />
+                    <Button title={'Sulfite'} style={'grey'} />
                 </div>  
                 <div className="right bottom">
                 <Next style={'bottom'}/>                  
