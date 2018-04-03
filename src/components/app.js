@@ -1,11 +1,9 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
+import 'materialize-css/dist/css/materialize.min.css';
 import DietSelection from './diet-selection';
 import AllergySelection from './allergy-selection';
 import MealNumber from './meal_number';
-import 'materialize-css/dist/css/materialize.min.css';
-import '../assets/css/diet-selection.css';
-
 
 export default () => (
     <div className="container">

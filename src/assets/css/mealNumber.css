@@ -8,6 +8,10 @@
     margin: 5%;
 }
 
-.button-column > div:first-of-type {
+.grey {
+    background-color: grey;
+}
+
+.collection {
     margin-top: 10vh;
 }

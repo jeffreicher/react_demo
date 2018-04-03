@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Header from './header';
 import Button from './button';
 import Next from './next_button';
+import '../assets/css/diet-selection.css';
 
 //add method that adds class to add button color when clicked 
 

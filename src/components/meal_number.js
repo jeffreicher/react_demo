@@ -9,7 +9,7 @@ class MealNumber extends Component {
         return (
             <div className="container">
                 <Header title={'Amount Of Meals?'} />
-                <div className="button-column">
+                <div className="button-column collection">
                     <Button title={'1'} style={'grey'} />  
                     <Button title={'3'} style={'grey'} />
                     <Button title={'5'} style={'grey'} />   
