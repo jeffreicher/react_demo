@@ -3,7 +3,7 @@ import React from 'react';
 
 export default props => (
     <div>
-        <a className={`waves-effect waves-light btn ${props.style}`}>
+        <a className={`btn-desk waves-effect waves-light btn ${props.style}`}>
             {props.title} <br/>
             {props.descrip}
         </a>

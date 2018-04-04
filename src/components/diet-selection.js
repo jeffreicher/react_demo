@@ -19,11 +19,11 @@ class DietSelection extends Component {
         <div className="container">
             <Header title={'What\'s Your Type?'}/>
             <div className="collection center-align">
-                <Button title={'Paleo'} descrip={'Live Like Your Ancestors'} style={'button'} />  
-                <Button title={'Low Carb'} descrip={'Coachella Bod Meal Plan'} style={'button'} />     
-                <Button title={'Vegetarian'} descrip={'Straight Veggies'} style={'button'} />   
-                <Button title={'Carnivore'} descrip={'Meat Is Life'} style={'button'} />   
-                <Button title={'Pescatarian'} descrip={'Fish N Greens'} style={'button'} />
+                <Button title={'None'} descrip={'Ain\'t Scared Of Shit'} style={'button'} />  
+                <Button title={'Ketogenic'} descrip={'Coachella Bod Meal Plan'} style={'button'} />     
+                <Button title={'Vegetarian'} descrip={'Straight Veggies N\' A Side Of Eggs'} style={'button'} />   
+                <Button title={'Vegan'} descrip={'Literally Straight Veggies'} style={'button'} />   
+                <Button title={'Pescatarian'} descrip={'Fish N\' Greens'} style={'button'} />
             </div>  
             <div className="right">
                 <Next />                  
