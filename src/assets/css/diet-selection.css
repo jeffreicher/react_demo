@@ -1,7 +1,7 @@
 .button {
-    height: 50px;
-    line-height: 25px;
-    margin: 6% auto;
+    height: 52px;
+    line-height: 26px;
+    margin: 4% auto;
     background-color: grey;
 }
 
@@ -26,5 +26,9 @@
         height: 20vh;
         width: 20vh;
         margin: 3vh 1vw;
+    }
+
+    .title-container {
+        margin-bottom: 2vh;
     }
 } 

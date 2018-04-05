@@ -34,10 +34,9 @@ class Button extends Component {
             <div>
                 <a onClick={this.handleClick.bind(this)} className={`btn-desk waves-effect waves-light btn ${this.props.style}`}>
                 <div>
-                    <div>
+                    <div className="title-container">
                        {this.props.title} 
                     </div>
-                     <br/>
                      <div>
                        {this.props.descrip}   
                     </div>                                       
