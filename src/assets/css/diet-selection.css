@@ -17,9 +17,9 @@
         justify-content: center;   
     }
 
-    .btn-desk > p {
+    .btn-desk > div {
         text-align: center;
-        margin-top: 5vh;
+        margin-top: 4vh;
     }
 
     .button {
