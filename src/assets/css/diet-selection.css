@@ -17,8 +17,9 @@
         justify-content: center;   
     }
 
-    .collection .div {
+    .btn-desk > p {
         text-align: center;
+        margin-top: 5vh;
     }
 
     .button {
